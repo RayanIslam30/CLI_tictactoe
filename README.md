@@ -12,7 +12,7 @@ Before the game, the user is able to choose from 3 difficulties for the computer
 
 I used a class for most of logic,
     
-    The Board class has methods for printing out the board, displaying moves on that board, checking if those moves are valid, and checking for a win or tie. 
+The Board class has methods for printing out the board, displaying moves on that board, checking if those moves are valid, and checking for a win or tie. 
     The board is stored as a list of nine squares, making it easy to update moves and check for available spaces. Encapsulating this logic in a class keeps the rest of the code organized and easier to read.  
     Each square is labelled with a number 1-9, to make it easier for the user to understand how to play. Initially the squares were unmarked, but I decided it made it too complicated for the player.
     The board checks for wins by testing each row, column, and diagonal for three matching symbols. It also detects ties by determining whether all squares are occupied.
