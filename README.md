@@ -1,4 +1,5 @@
 # CLI Tic-Tac-Toe
+#### My Final Project for Harvard's CS50P Python course
 #### Video Demo: https://youtu.be/Bamkw7BNwrs
 #### Description:
 A python script that allows the user to play Tic-Tac-Toe against a computer from the command-line.
